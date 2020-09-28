@@ -369,4 +369,8 @@
 		<!-- ########### END OF: 'Other' ########### -->		
 
 	</extension>
+	
+	<extension point="org.eclipse.ui.editors.templates">
+	
+	</extension>
 </plugin>
