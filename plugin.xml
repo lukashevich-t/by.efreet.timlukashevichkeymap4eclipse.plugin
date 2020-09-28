@@ -13,6 +13,10 @@
 			M2 - Shift
 			M3 - Alt
 		-->
+		
+		<!-- #######################################-->
+		<!-- ***** START OF: 'Editor Actions' ***** -->
+		
 		<!-- Move line up -->
 		<key
 			sequence="M2+M3+ARROW_UP"
@@ -21,6 +25,7 @@
 			platform="win32"
 			commandId="org.eclipse.ui.edit.text.moveLineUp">
 		</key>
+		
 		<!-- Move line down -->
 		<key
 			sequence="M2+M3+ARROW_DOWN"
@@ -29,6 +34,339 @@
 			platform="win32"
 			commandId="org.eclipse.ui.edit.text.moveLineDown">
 		</key>
-	</extension>
 
+		<!-- Open file -->
+		<!-- kill association with Ctrl+O -->
+		<key
+			sequence="M1+O"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+O"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.openLocalFile">
+		</key>
+
+		<!-- Format code -->
+		<key
+			sequence="M2+M3+F"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.format"
+			contextId="org.eclipse.ant.ui.AntEditorScope">
+		</key>
+		<key
+			sequence="M2+M3+F"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.wst.sse.ui.format.document"
+			contextId="org.eclipse.wst.sse.ui.structuredTextEditorScope">
+		</key>
+		<key
+			sequence="M2+M3+F"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.format"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope">
+		</key>
+		<key
+			sequence="M2+M3+F"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.format"
+			contextId="org.eclipse.jdt.ui.javaEditorScope">
+		</key>
+		<key
+			sequence="M2+M3+F"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.codegen.ui.jet.format"
+			contextId="org.eclipse.emf.codegen.ui.jetEditorScope">
+		</key>
+		<key
+			sequence="M2+M3+F"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.lsp4e.format"
+			contextId="org.eclipse.ui.textEditorScope">
+		</key>
+
+		<!-- Organize imports -->
+		<key
+			sequence="M1+M3+O"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.organize.imports">
+		</key>
+
+		<!-- Next error -->
+		<key
+			sequence="M3+PAGE_DOWN"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.next">
+		</key>
+
+		<!-- Previous error -->
+		<key
+			sequence="M3+PAGE_UP"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.previous">
+		</key>
+
+		<!-- Duplicate line -->
+		<key
+			sequence="M1+D"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.copyLineDown">
+		</key>
+
+		<!-- Delete line -->
+		<key
+			sequence="M1+M2+L"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.delete.line">
+		</key>
+
+		<!-- Show tooltip description -->
+		<key
+			sequence="M1+Q"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.showInformation">
+		</key>
+
+		<!-- Move lines up -->
+		<key
+			sequence="M2+M3+ARROW_UP"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.moveLineUp">
+		</key>
+
+		<!-- Move lines down -->
+		<key
+			sequence="M2+M3+ARROW_DOWN"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.moveLineDown">
+		</key>
+
+		<!-- Goto line -->
+		<key
+			sequence="M1+G"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.goto.line">
+		</key>
+
+		<!-- Show key assistant -->
+		<key
+			sequence="ALT+SHIFT+L"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.dialogAndWindow"
+			platform="win32"
+			commandId="org.eclipse.ui.window.showKeyAssist">
+		</key>
+
+		<!-- Find Actions -->
+		<key
+			sequence="CTRL+SHIFT+A"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.ui.window.quickAccess"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- Quick search -->
+		<key
+			sequence="CTRL+SHIFT+F"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.text.quicksearch.commands.quicksearchCommand"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- ##### END OF: 'Editor Actions' ##### -->
+
+
+		
+		<!-- #######################################-->
+		<!-- ******** START OF: 'Debugging' ******** -->
+
+		<!-- Toggle breakpoint -->
+		<key
+			sequence="F9"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.ToggleBreakpoint"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- Inspect variable -->
+		<key
+			sequence="M2+F9"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.debug.ui.commands.Inspect"
+			contextId="org.eclipse.ui.contexts.dialogAndWindow">
+		</key>
+
+		<!-- Inspect variable -->
+		<key
+			sequence="M2+F9"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.debug.ui.commands.Inspect"
+			contextId="org.eclipse.ui.contexts.dialogAndWindow">
+		</key>
+		<!-- ######### END OF: 'Debugging' ######### -->		
+
+
+		<!-- #######################################-->
+		<!-- ******* START OF: 'Refactoring' ******* -->
+
+		<!-- Extract method	1 -->
+		<key
+			sequence="M1+R M"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.method"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+		<!-- Extract method	2 -->
+		<key
+			sequence="M1+R M1+M"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.method"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- Extract variable 1 -->
+		<key
+			sequence="M1+R V"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.local.variable"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+		<!-- Extract variable 2 -->
+		<key
+			sequence="M1+R M1+V"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.local.variable"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- Inline 1 -->
+		<key
+			sequence="M1+R I"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.inline"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+		<!-- Inline 2 -->
+		<key
+			sequence="M1+R M1+I"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.inline"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- Rename 1 -->
+		<key
+			sequence="M1+R R"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.rename.element"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+		<!-- Rename 2 -->
+		<key
+			sequence="M1+R M1+R"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.rename.element"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- Extract constant 1 -->
+		<key
+			sequence="M1+R C"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.constant"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+		<!-- Extract constant 2 -->
+		<key
+			sequence="M1+R M1+C"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.constant"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<!-- Move 1 -->
+		<key
+			sequence="M1+R O"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jst.jsp.ui.refactor.move"
+			contextId="org.eclipse.jdt.ui.javaEditorScope">
+		</key>
+		<!-- Move 2 -->
+		<key
+			sequence="M1+R M1+O"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jst.jsp.ui.refactor.move"
+			contextId="org.eclipse.jdt.ui.javaEditorScope">
+		</key>
+
+		<!-- Show source quick menu -->
+		<key
+			sequence="ALT+INSERT"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+		<!-- ######## END OF: 'Refactoring' ######## -->
+				
+
+		<!-- #######################################-->
+		<!-- ********** START OF: 'Other' ********** -->
+		<!-- Show source quick menu -->
+		<key
+			sequence="ALT+F7"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.ui.window.preferences"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+		<!-- ########### END OF: 'Other' ########### -->		
+
+	</extension>
 </plugin>
