@@ -366,11 +366,23 @@
 			commandId="org.eclipse.ui.window.preferences"
 			contextId="org.eclipse.ui.contexts.window">
 		</key>
+
+		<key
+			sequence="SHIFT+F12"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace"
+			contextId="org.eclipse.ui.contexts.window">
+		</key>
+
+		<key
+			sequence="SHIFT+F12"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			platform="win32"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.search.references.in.workspace"
+			contextId="org.eclipse.wst.jsdt.ui.javascriptViewScope">
+		</key>
 		<!-- ########### END OF: 'Other' ########### -->		
 
-	</extension>
-	
-	<extension point="org.eclipse.ui.editors.templates">
-	
 	</extension>
 </plugin>
