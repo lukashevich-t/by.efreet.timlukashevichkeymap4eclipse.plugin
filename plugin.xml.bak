@@ -1,0 +1,2258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.bindings">
+		<scheme
+			id="TimLukashevichKeymap4EclipseScheme"
+			name="Tim&apos;s keymap"
+			parentId="org.eclipse.ui.defaultAcceleratorConfiguration">
+		</scheme>
+
+<!-- Mapping of IntelliJ IDEA DEFAULT KEYMAP: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf -->
+
+<!-- Keys are ordered as in IntelliJ IDEA: Settings > Keymap -->
+
+
+		<!-- #######################################-->
+		<!-- ***** START OF: 'Editor Actions' ***** -->
+		
+		<!-- 'Extend Selection' -->
+		<!-- kill org.eclipse.ui.file.close -->
+		<key
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<!-- kill org.eclipse.ui.file.close -->
+		<key
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<key
+			sequence="M3+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<!-- 'Extend Selection' for JavaScript -->
+		<key
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<key
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<key
+			sequence="M3+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing">
+		</key>
+
+		
+		<!-- 'Shrink Selection' -->
+		<!-- kill org.eclipse.ui.file.closeAll -->
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
+		</key>
+		<!-- kill org.eclipse.ui.file.closeAll -->
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
+		</key>
+		<key
+			sequence="M3+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
+		</key>
+		<!-- 'Shrink Selection' for JavaScript -->
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.last">
+		</key>
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.last">
+		</key>
+		<key
+			sequence="M3+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.last">
+		</key>
+		
+		
+		<!-- TODO 'Complete Current Statement': Waiting on https://bugs.eclipse.org/bugs/show_bug.cgi?id=426743 -->
+		
+		
+		<!-- 'Duplicate current line' -->		
+		<key
+			sequence="M1+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.copyLineDown">
+		</key>
+		
+		<!-- 'Delete line at caret' -->		
+		<key
+			sequence="Ctrl+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.delete.line">
+		</key>
+		<key
+			sequence="Ctrl+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.text.delete.line">
+		</key>
+		<key
+			sequence="M1+BS"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.text.delete.line">
+		</key>
+		
+		
+		<!-- 'Smart line join' -->		
+		<key
+			sequence="CTRL+M2+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.join.lines">
+		</key>
+		
+		<!-- 'Smart line split' -->		
+		<key
+			sequence="M1+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.smartEnter">
+		</key>
+		
+		<!-- 'Start new line' -->		
+		<key
+			sequence="M2+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.smartEnter">
+		</key>
+		
+		<!-- 'Start New Line Before Current' -->		
+		<key
+			sequence="Ctrl+Alt+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.smartEnterInverse">
+		</key>
+		
+		<!-- TODO 'Select till code block end'		
+		<key
+			sequence="Ctrl+Shift+]"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="eclipse_command">
+		</key> -->
+		
+		<!-- 'Move Caret to Code Block Start' -->
+		<!-- Bug: Eclipse has no start or end block just matching bracket -->
+		<key
+			sequence="M1+["
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket">
+		</key>
+		
+		<!-- 'Move Caret to Code Block End' -->
+		<!-- Bug: Eclipse has no start or end block just matching bracket -->
+		<key
+			sequence="M1+]"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket">
+		</key>
+		
+		<!-- TODO check: should be defined in parent: 'Delete to word end' 
+		<key
+			sequence="Ctrl+DELETE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.deleteNextWord">
+		</key>-->		
+		
+		<!-- TODO check: should be defined in parent: 'Delete to word start' 	
+		<key
+			sequence="Ctrl+BS"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.deletePreviousWord">
+		</key>-->	
+		
+		<!-- 'Collapse code block' -->		
+		<key
+			sequence="M1+NUMPAD_SUBTRACT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.collapse">
+		</key>
+		<key
+			sequence="M1+-"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.collapse">
+		</key>
+		
+		<!-- 'Expand code block' -->		
+		<key
+			sequence="M1+NUMPAD_ADD"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.expand">
+		</key>
+		<key
+			sequence="M1+="
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.expand">
+		</key>
+		<key
+			sequence="M1++"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.text.folding.expand">
+		</key>
+		
+		<!-- 'Collapse all' -->		
+		<key
+			sequence="M1+M2+NUMPAD_SUBTRACT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.collapse_all">
+		</key>
+		<key
+			sequence="M1+M2+-"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.collapse_all">
+		</key>
+		
+		
+		<!-- 'Expand all' -->		
+		<key
+			sequence="M1+M2+NUMPAD_ADD"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.expand_all">
+		</key>
+		<key
+			sequence="M1+M2+="
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.expand_all">
+		</key>
+		<key
+			sequence="M1+M2++"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.text.folding.expand_all">
+		</key>
+		
+		<!-- 'Go to editor (from tool window)' -->		
+		<key
+			sequence="ESC"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.window.activateEditor">
+		</key>
+		
+		
+		<!-- TODO 'Toggle Case' -->		
+		<key
+			sequence="M1+M2+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="">
+		</key>
+
+		<!-- ##### END OF: 'Editor Actions' ##### -->
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > File' ***** -->
+		
+		<!-- 'Settings...', 'Open Settings dialog'  -->		
+		<key
+			sequence="Ctrl+Alt+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.window.preferences">
+		</key>
+		
+		<!-- 'Project Structure...', 'Open Project Structure dialog' -->		
+		<key
+			sequence="Ctrl+Alt+Shift+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.project.properties">
+		</key>
+		<key
+			sequence="Ctrl+Alt+Shift+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.project.properties">
+		</key>
+		<key
+			sequence="M1+;"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.project.properties">
+		</key>
+		
+		<!-- 'Save all' -->		
+		<key
+			sequence="M1+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.file.saveAll">
+		</key>
+		
+		<!-- TODO What exactly does Synchronize do? Is it just refresh? -->
+		<!-- 'Synchronize' -->		
+		<key
+			sequence="M1+M3+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.file.refresh">
+		</key>
+		<!-- ##### END OF: 'Main Menu > File' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Edit' ***** -->
+		
+		<!-- 'Select All' -->
+		<key
+			sequence="M1+A"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.selectAll">
+		</key>
+		
+		<!-- 'Undo' -->		
+		<key
+			sequence="M1+Z"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.undo">
+		</key>
+		
+		<!-- 'Redo' -->		
+		<key
+			sequence="M1+Shift+Z"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.redo">
+		</key>
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Edit > Find' ***** -->
+		
+		<!-- TODO Search everywhere -->
+		
+		
+		<!-- 'Find...' -->		
+		<key
+			sequence="M1+F"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		<key
+			sequence="Alt+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		<key
+			sequence="Alt+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		
+		<!-- 'Replace' -->		
+		<key
+			sequence="M1+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		
+		
+		<!-- 'Find Next' -->		
+		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
+			sequence="M1+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
+			sequence="M1+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
+			sequence="M1+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		
+		<!-- 'Find Previous' -->		
+		<key
+			sequence="Shift+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
+			sequence="Shift+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
+			sequence="M1+M2+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
+			sequence="M1+M2+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
+			sequence="M1+M2+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		
+		<!-- 'Find in path' -->		
+		<key
+			sequence="M1+M2+F"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.search.ui.openFileSearchPage">
+		</key>
+		
+		<!-- 'Replace in path' -->
+		<key
+			sequence="M1+M2+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.search.ui.openFileSearchPage">
+		</key>
+		
+		<!-- TODO multiple cursors required? Select next occurrence, Select all occurrences, Unselect occurrence -->
+		
+		
+		<!-- TODO 'Find usages in file' -->
+		<!-- 'Find usages in file' -->
+		<key
+			sequence="M1+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId=""> <!-- clashes with 'Next View' -->
+		</key>
+		
+		<!-- 'Find usages' -->
+		<key
+			sequence="M3+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace">
+		</key>
+		
+		<!-- 'Highlight usages in file' -->
+		<key
+			sequence="M1+M2+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu">
+		</key>
+		
+		<!-- 'Show usages' -->
+		<key
+			sequence="M1+M3+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace">
+		</key>
+		
+		
+		
+		
+		<!-- ##### END OF: 'Main Menu > Edit > Find' ##### -->
+		
+		
+		<!-- ##### END OF: 'Main Menu > Edit' ##### -->
+
+
+
+
+
+
+
+
+
+
+
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > View' ***** -->
+
+		<!-- TODO 'Quick switch current scheme' Ctrl + BackQuote (`) --> 
+
+		<!-- 'Parameter Info' -->		
+		<key
+			sequence="M1+P"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.edit.text.contentAssist.contextInformation">
+		</key>
+		
+		<!-- TODO It would be better to call JavadocHover, but how can I do this? -->
+		<!-- 'Quick Documentation' -->
+		<key
+			sequence="Ctrl+Q"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.JavadocView">
+          </parameter>
+		</key>
+		<key
+			sequence="Ctrl+Q"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.JavadocView">
+          </parameter>
+		</key>
+		<key
+			sequence="M4+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.JavadocView">
+          </parameter>
+		</key>
+		
+		<!-- 'External Documentation' -->		
+		<key
+			sequence="M2+F1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.external.javadoc">
+		</key>
+		
+		
+		
+		<!-- 'Show descriptions of error at caret' -->		
+		<!-- TODO Bug in Eclipse (win32), it shows the Eclipse help instead of the dialog. -->
+		<key
+			sequence="M1+F1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.edit.text.showInformation">
+		</key>
+		
+		<!-- TODO It would be better to call JavaSourceHover, but how can I do this? -->
+		<!-- 'Quick definition' -->		
+		<key
+			sequence="M1+SHIFT+I"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		<key
+			sequence="M1+SHIFT+I"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		<key
+			sequence="M1+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		<key
+			sequence="M3+SPACE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		
+		<!-- ##### END OF: 'Main Menu > View' ##### -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Navigate' ***** -->
+		
+				<!-- 'Next highlighted error ' -->
+		<key
+			sequence="F2"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.navigate.next">
+		</key>
+		
+		<!-- 'Previous highlighted error ' -->
+		<key
+			sequence="M2+F2"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.navigate.previous">
+		</key> 
+		
+		<!-- 'Go to class' -->		
+		<key
+			sequence="Ctrl+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.navigate.open.type">
+		</key>
+		<key
+			sequence="Ctrl+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="gtk"
+			commandId="org.eclipse.jdt.ui.navigate.open.type">
+		</key>
+		<key
+			sequence="M1+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.navigate.open.type">
+		</key>
+		
+		<!-- 'Go to file' -->		
+		<key
+			sequence="Ctrl+Shift+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.openResource">
+		</key>
+		<key
+			sequence="Ctrl+Shift+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="gtk"
+			commandId="org.eclipse.ui.navigate.openResource">
+		</key>
+		<key
+			sequence="M1+M2+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="cocoa"
+			commandId="org.eclipse.ui.navigate.openResource">
+		</key>
+		
+		<!-- 'Go to line' -->		
+		<key
+			sequence="M1+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.goto.line">
+		</key>
+		<key
+			sequence="M1+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.text.goto.line">
+		</key>
+		<key
+			sequence="M1+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.text.goto.line">
+		</key>
+		
+		<!-- 'Navigate forward ' -->		
+		<key
+			sequence="M1+M3+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.navigate.forwardHistory">
+		</key>
+		
+		<!-- 'Navigate back ' -->		
+		<key
+			sequence="M1+M3+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.navigate.backwardHistory">
+		</key>
+		
+		<!-- 'Navigate to last edit location' -->		
+		<key
+			sequence="M1+M2+BS"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.gotoLastEditPosition">
+		</key>
+		
+		<!-- 'Select current file or symbol in any view' -->		
+		<key
+			sequence="M3+F1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.navigate.showInQuickMenu">
+		</key>
+		
+		<!-- 'Go to declaration' -->		
+		<key
+			sequence="M1+B"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.editor">
+		</key>
+		
+		<!-- 'Go to implementation' -->		
+		<key
+			sequence="M1+M3+B"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.implementation">
+		</key>
+		
+		<!-- TODO 'Go to type declaration' -->
+		
+		<!-- 'Go to super-method / super-class' -->		
+		<key
+			sequence="M1+U"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.super.implementation">
+		</key>
+		
+		<!-- 'Go to previous method' -->		
+		<key
+			sequence="ALT+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
+		</key>
+		<key
+			sequence="ALT+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
+		</key>
+		<key
+			sequence="ALT+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="">
+		</key>
+		<key
+			sequence="M4+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
+		</key>
+		
+		<!-- 'Go to next method' -->		
+		<key
+			sequence="ALT+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
+		</key>
+		<key
+			sequence="ALT+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
+		</key>
+		<key
+			sequence="ALT+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="" />
+		<key
+			sequence="M4+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
+		</key>
+		
+		<!-- 'File structure popup' -->		
+		<key
+			sequence="M1+F12"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.show.outline">
+		</key>
+		
+		<!-- 'Type hierarchy' -->		
+		<key
+			sequence="CTRL+H"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy">
+		</key>
+		
+		<!-- 'TODO Method hierarchy' -->		
+		
+		
+		<!-- 'Call hierarchy' -->
+		<key
+			sequence="CTRL+M3+H"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy">
+		</key>
+		
+		<!-- 'Jump to Navigation Bar' -->		
+		<key
+			sequence="M3+HOME"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb">
+		</key>
+		
+		<!-- 'Add Bookmark' -->		
+		<key
+			sequence="F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		<key
+			sequence="F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		
+		<!-- 'Add Bookmark' kill 'Find Next' -->
+		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="">
+		</key>
+		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		
+		<!-- 'Toggle bookmark with mnemonic' -->		
+		<key
+			sequence="Ctrl+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		<key
+			sequence="Ctrl+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		<key
+			sequence="M3+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		
+		<!-- 'Show bookmarks' -->		
+		<key
+			sequence="Shift+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.ui.views.BookmarkView">
+          </parameter>
+		</key>
+		<key
+			sequence="Shift+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.ui.views.BookmarkView">
+          </parameter>
+		</key>
+		<key
+			sequence="M1+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.ui.views.BookmarkView">
+          </parameter>
+		</key>
+		
+		<!-- ##### END OF: 'Main Menu > Navigate' ##### -->
+
+
+
+		
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Code' ***** -->
+		
+		<!-- 'Surround with Live Template' -->		
+		<key
+			sequence="M1+M3+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.surround.with.quickMenu">
+		</key>
+		
+		<!-- 'Insert Live Template' -->		
+		<key
+			sequence="M1+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.specific_content_assist.command">
+			<parameter
+                id="org.eclipse.jdt.ui.specific_content_assist.category_id"
+                value="org.eclipse.jdt.ui.templateProposalCategory">
+          </parameter>
+		</key>
+		
+		<!-- 'Generate code' -->		
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
+		<key
+			sequence="M1+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
+		<key
+			sequence="M4+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
+		
+		<!-- 'Code Completion Basic' -->		
+		<key
+			sequence="CTRL+SPACE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.contentAssist.proposals">
+		</key>
+		
+		
+		<!-- 'Reformat code' -->		
+		<key
+			sequence="M1+M3+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.format">
+		</key>
+
+		<!-- 'Organize Imports' -->		
+		<key
+			sequence="CTRL+M3+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.organize.imports">
+		</key>
+		
+		<!-- 'Auto indent' -->		
+		<key
+			sequence="CTRL+M3+I"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.indent">
+		</key>
+		
+		<!-- 'Comment / uncomment with line comment ' -->		
+		<key
+			sequence="M1+/"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
+		</key>
+		<key
+			sequence="M1+/"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.propertiesEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
+		</key>
+		
+		<!-- 'Comment / uncomment with line comment ' -->		
+		<key
+			sequence="M1+NUMPAD_DIVIDE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
+		</key>
+		<key
+			sequence="M1+NUMPAD_DIVIDE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.propertiesEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
+		</key>
+		
+		<!-- 'Comment / uncomment with block comment ' -->
+		<!-- Bug: Eclipse has no Toggle Block Comment -->	
+		<key
+			sequence="Ctrl+Shift+/"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
+		<key
+			sequence="M1+M3+/"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
+		
+		<!-- 'Comment / uncomment with block comment ' -->
+		<!-- Bug: Eclipse has no Toggle Block Comment -->		
+		<key
+			sequence="Ctrl+Shift+NUMPAD_DIVIDE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
+		<key
+			sequence="M1+M3+NUMPAD_DIVIDE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
+		
+		<!-- 'Override methods' -->		
+		<key
+			sequence="CTRL+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
+		</key>
+		
+		
+		<!-- 'Implement methods' -->		
+		<!-- INFO: Unfortunately Eclipse doesn't have a separate dialog for implement methods, it is mixed with override methods. -->
+		<key
+			sequence="CTRL+I"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
+		</key>
+		
+		<!-- 'Surround with...' -->		
+		<key
+			sequence="M1+M3+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.surround.with.quickMenu">
+		</key>
+		
+		<!-- 'Move statement down' -->		
+		<key
+			sequence="M1+SHIFT+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.moveLineDown">
+		</key>
+		
+		<!-- 'Move statement up' -->		
+		<key
+			sequence="M1+SHIFT+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.moveLineUp">
+		</key>
+		
+		
+		<!-- ##### END OF: 'Main Menu > Code' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Analyze' ***** -->
+		<!-- ##### END OF: 'Main Menu > Analyze' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Refactor' ***** -->
+		
+		<!-- TODO 'Copy' -->		
+		
+		<!-- 'Move' -->		
+		<key
+			sequence="F6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.move.element">
+		</key>
+
+
+		<!-- TODO 'Safe Delete' -->		
+
+
+		<!-- 'Rename' -->		
+		<key
+			sequence="M2+F6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.rename.element">
+		</key>
+		
+		<!-- 'Refactor This' -->		
+		<key
+			sequence="Ctrl+Alt+Shift+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
+		</key>
+		<key
+			sequence="Ctrl+Alt+Shift+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
+		</key>
+		<key
+			sequence="M4+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
+		</key>
+		
+		<!-- 'Change Signature' -->		
+		<key
+			sequence="M1+F6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.modify.method.parameters">
+		</key>
+		
+		<!-- 'Inline' -->		
+		<key
+			sequence="M1+M3+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.inline">
+		</key>
+		
+		<!-- 'Extract Method' -->		
+		<key
+			sequence="M1+M3+M"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.method">
+		</key>
+		
+		<!-- 'Extract Variable' -->		
+		<key
+			sequence="M1+M3+V"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.local.variable">
+		</key>
+		
+		<!-- 'Extract Field' -->		
+		<key
+			sequence="M1+M3+F"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.promote.local.variable">
+		</key>
+		
+		<!-- 'Extract Constant' -->		
+		<key
+			sequence="M1+M3+C"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.extract.constant">
+		</key>
+		
+		<!-- 'Extract Parameter' -->		
+		<key
+			sequence="M1+M3+P"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.introduce.parameter">
+		</key>
+		
+		<!-- ##### END OF: 'Main Menu > Refactor' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Build' ***** -->
+		
+		<!-- Couldn't find Compile selected file, package or module -->
+		
+		<!-- 'Build Project', 'Make project' -->		
+		<key
+			sequence="M1+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.project.buildProject">
+		</key>
+		
+		<!-- 'Run' -->
+		<key
+			sequence="Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		<key
+			sequence="Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		<key
+			sequence="M4+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		
+		<!-- 'Debug' -->		
+		<key
+			sequence="Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
+		</key>
+		<key
+			sequence="Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
+		</key>
+		<key
+			sequence="M4+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
+		</key>
+		
+		<!-- 'Select configuration and run' -->		
+		<key
+			sequence="ALT+Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
+		</key>
+		<key
+			sequence="ALT+Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
+		</key>
+		<key
+			sequence="M4+M3+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
+		</key>
+		
+		<!-- 'Select configuration and debug' -->		
+		<key
+			sequence="ALT+Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
+		</key>
+		<key
+			sequence="ALT+Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
+		</key>
+		<key
+			sequence="M4+M3+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
+		</key>
+		
+		<!-- TODO Bug doesn't work: 'Run context configuration from editor' -->		
+		<key
+			sequence="M1+M2+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		<key
+			sequence="Ctrl+Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		<key
+			sequence="M4+M2+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		
+		<!-- 'Debug context configuration from editor' -->		
+		<key
+			sequence="M4+M2+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
+		</key>
+		
+		<!-- ##### END OF: 'Main Menu > Build' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Run' ***** -->
+		
+		<!-- 'Step Over' -->		
+		<key
+			sequence="F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.debug.ui.debugging"
+			commandId="org.eclipse.debug.ui.commands.StepOver">
+		</key>
+		
+		<!-- 'Step Out' -->		
+		<key
+			sequence="M2+F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.debug.ui.debugging"
+			commandId="org.eclipse.debug.ui.commands.StepReturn">
+		</key>
+		
+		
+		<!-- 'Step Into' -->		
+		<key
+			sequence="F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.debug.ui.debugging"
+			commandId="org.eclipse.debug.ui.commands.StepInto">
+		</key>
+		
+		<!-- TODO what does Smart step into / Step out do? -->
+		
+		<!-- 'Run to cursor' -->		
+		<key
+			sequence="M3+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.debug.ui.debugging"
+			commandId="org.eclipse.debug.ui.commands.RunToLine">
+		</key>
+		
+		<!-- 'Evaluate expression' -->		
+		<key
+			sequence="M3+F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.dialogAndWindow"
+			commandId="org.eclipse.jdt.debug.ui.commands.Inspect">
+		</key>
+		
+		<!-- 'Resume program' -->		
+		<key
+			sequence="F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.debug.ui.debugging"
+			commandId="org.eclipse.debug.ui.commands.Resume">
+		</key>	
+		<key
+			sequence="M1+M3+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.debug.ui.debugging"
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.Resume">
+		</key>
+		
+		<!-- 'Toggle breakpoint' -->		
+		<key
+			sequence="M1+F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.debug.ui.commands.ToggleBreakpoint">
+		</key>
+		
+		<!-- 'View breakpoints' -->		
+		<key
+			sequence="M1+M2+F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.debug.ui.BreakpointView">
+          </parameter>
+		</key>
+		
+		<!-- ##### END OF: 'Main Menu > Run' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Tools' ***** -->
+		<!-- ##### END OF: 'Main Menu > Tools' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > VCS' ***** -->
+		
+		<!-- 'Commit project to VCS' -->
+		<key
+			sequence="M1+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="">
+		</key><!-- clashes with parent: org.eclipse.ui.edit.findNext -->
+		<key
+			sequence="M1+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.egit.ui.team.Commit">
+		</key>
+		
+		<!-- 'Update project from VCS' -->
+		<key
+			sequence="M1+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.egit.ui.team.Pull">
+		</key>
+		
+		<!-- Known bug: works only if the project is selected in (Project) Explorer. -->
+		<!-- 'Push commits' -->
+		<key
+			sequence="M1+M2+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="">
+		</key><!-- clashes with parent: org.eclipse.ui.edit.findPrevious -->
+		<key
+			sequence="M1+M2+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.egit.ui.team.Push">
+		</key>
+		
+		<!-- ##### END OF: 'Main Menu > VCS' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Window' ***** -->
+		
+		
+		<!-- START OF Main Menu > Window -> Active Tool Window -->
+		<!-- 'Hide All Tool Windows', 'Toggle maximizing editor' -->
+		<!-- Bug: https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/issues/1 -->
+		<key
+			sequence="M1+M2+F12"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.window.maximizePart">
+		</key>
+		
+		
+		
+		<!-- 'Next Tab' -->		
+		<key
+			sequence="ALT+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.nextTab">
+		</key>
+		<key
+			sequence="ALT+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.navigate.nextTab">
+		</key>
+		<key
+			sequence="M4+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.navigate.nextTab">
+		</key>
+		
+		<!-- 'Previous Tab' -->		
+		<key
+			sequence="ALT+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.previousTab">
+		</key>
+		<key
+			sequence="ALT+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.navigate.previousTab">
+		</key>
+		<key
+			sequence="M4+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.navigate.previousTab">
+		</key>
+		
+		
+		<!-- ##### END OF: 'Main Menu > Window' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Help' ***** -->
+		
+		<!-- 'Find Action...' -->		
+		<key
+			sequence="M1+M2+A"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.window.quickAccess">
+		</key>
+		<!-- ##### END OF: 'Main Menu > Help' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'Tool Windows' ***** -->
+		
+
+		<!-- TODO Known Bug: Tool Windows: Pressing the same sequence again should close / reopen the view -->
+
+
+
+
+		<!-- TODO Tool Windows:'Messages' Has Eclipse a 'Messages' view? <key sequence="Alt+0 ... -->
+
+
+
+
+		<!-- Tool Windows:'Project' -->
+		<key
+			sequence="Alt+1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.navigator.ProjectExplorer">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.navigator.ProjectExplorer">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.navigator.ProjectExplorer">
+			</parameter>
+		</key>
+
+
+
+
+		<!-- TODO Tool Windows:'Favorites' Has Eclipse a 'Favorites' view? <key sequence="Alt+2 ... -->
+
+
+
+
+		<!-- Tool Windows:'Find' -->
+		<key
+			sequence="Alt+3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.search.ui.views.SearchView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.search.ui.views.SearchView">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.search.ui.views.SearchView">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Windows:'Run' -->
+		<!-- TODO Has Eclipse a Run View - best match is probably Console? -->
+		<key
+			sequence="Alt+4"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.console.ConsoleView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+4"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.console.ConsoleView">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+4"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.console.ConsoleView">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Windows:'Debug' -->
+		<!-- TODO Has Eclipse a Debug View - best thing would be to create a new view which contains (as subviews) Debug Stacktrace + Variables + Breakpoints 
+			view? -->
+		<key
+			sequence="Alt+5"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.debug.ui.DebugView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+5"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.debug.ui.DebugView">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+5"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.debug.ui.DebugView">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Windows:'TODO' -->
+		<key
+			sequence="Alt+6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.TaskList">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.TaskList">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.TaskList">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Windows:'Structure' -->
+		<key
+			sequence="Alt+7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.ContentOutline">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.ContentOutline">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.ContentOutline">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Windows:'Version Control' -->
+		<!-- TODO SynchronizeView oder org.eclipse.egit.ui.StagingView -->
+		<key
+			sequence="Alt+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+Shift+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+Shift+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		
+		<!-- ##### END OF: 'Tool Windows' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'Version Control Systems' ***** -->
+		<!-- ##### END OF: 'Version Control Systems' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'External Build Systems' ***** -->
+		<!-- ##### END OF: 'External Build Systems' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'Debugger Actions' ***** -->
+		<!-- ##### END OF: 'Debugger Actions' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'Other' ***** -->
+		
+		<!-- TODO 'Inspect current file with current profile' Alt + Shift + I --> 
+
+		<!-- 'Show Intention Actions' -->		
+		<key
+			sequence="M3+Enter"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals">
+		</key>
+		
+		<!-- 'New...' -->		
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.file.newQuickMenu">
+		</key>
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.file.newQuickMenu">
+		</key>
+		<key
+			sequence="M1+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.file.newQuickMenu">
+		</key>
+		<key
+			sequence="M4+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.file.newQuickMenu">
+		</key>
+		
+		
+
+
+		<!-- ##### END OF: 'Other' ##### -->
+
+
+
+
+
+
+
+
+
+		
+		
+		<!-- TODO 'Go back to previous tool window' -->		
+
+		
+		
+		
+		
+
+	</extension>
+
+</plugin>

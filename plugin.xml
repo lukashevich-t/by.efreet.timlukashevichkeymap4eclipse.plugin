@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.bindings">
+		<scheme
+			id="TimLukashevichKeymap4EclipseScheme"
+			name="Tim&apos;s keymap"
+			parentId="org.eclipse.ui.defaultAcceleratorConfiguration">
+		</scheme>
+
+		<!--
+			M1 - Ctrl
+			M2 - Shift
+			M3 - Alt
+		-->
+		<!-- Move line up -->
+		<key
+			sequence="M2+M3+ARROW_UP"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.moveLineUp">
+		</key>
+		<!-- Move line down -->
+		<key
+			sequence="M2+M3+ARROW_DOWN"
+			schemeId="TimLukashevichKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.moveLineDown">
+		</key>
+	</extension>
+
+</plugin>
