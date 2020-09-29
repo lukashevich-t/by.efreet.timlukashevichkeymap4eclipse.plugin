@@ -385,4 +385,14 @@
 		<!-- ########### END OF: 'Other' ########### -->		
 
 	</extension>
+	
+	<!-- Примеры смотреть тут: 
+	c:\cp\eclipse\plugins\org.eclipse.jdt.ui_3.21.200.v20200828-0853.jar\plugin.xml
+	c:\cp\eclipse\plugins\org.eclipse.jdt.ui_3.21.200.v20200828-0853.jar\templates\default-templates.xml 
+	-->
+	<extension point="org.eclipse.ui.editors.templates">
+		<!-- Код ниже не работает: -->
+       <template name="sysout2" description="sysout2" id="org.eclipse.jdt.ui.templates.sysout2" context="java-statements" enabled="true" autoinsert="true">System.out.println(${word_selection}${});${cursor}</template>
+	</extension>
+     
 </plugin>
